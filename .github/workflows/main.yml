@@ -40,6 +40,7 @@ jobs:
         overrides: |
           replicas:2
         helm-version: 'latest'
+        releaseName:  thisismyrelease
       id: bake
 
     - uses: Azure/k8s-deploy@v1
