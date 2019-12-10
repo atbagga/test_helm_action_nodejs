@@ -37,7 +37,6 @@ jobs:
         renderEngine: 'helm2'
         helmChart: './charts/express-aks/'
         overrideFiles: './charts/express-aks/values.yaml'
-        releaseName: 'beta'
         overrides: |
           replicas:2
         helm-version: 'latest'
