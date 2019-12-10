@@ -36,6 +36,7 @@ jobs:
       with:
         renderEngine: 'helm2'
         helmChart: './charts/express-aks/'
+        releaseName: 'hello'
       id: bake
 
     - uses: Azure/k8s-deploy@v1
