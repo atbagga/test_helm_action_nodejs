@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       annotations:
-        buildID: 1
+        buildID: '1'
       labels:
         draft: {{ default "draft-app" .Values.draft }}
         app: {{ template "fullname" . }}
