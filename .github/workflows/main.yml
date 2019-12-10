@@ -35,8 +35,8 @@ jobs:
     - uses: azure/k8s-bake@v1
       with:
         renderEngine: 'helm2'
-        helmChart: './charts/express-AKS/' 
-        overrideFiles: './charts/express-AKS/values.yaml'
+        helmChart: './charts/express-aks/' 
+        overrideFiles: './charts/express-aks/values.yaml'
         overrides: |     
           replicas:2
         helm-version: 'latest' 
